@@ -1,6 +1,6 @@
-const knex = require('knex');
+/* const knex = require('knex');
 const knexConfig = require('./knexfile.js');
 
 const router = require('express').Router();
 
-const db = knex(knexConfig.development);
+const db = knex(knexConfig.development); */

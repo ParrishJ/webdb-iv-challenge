@@ -16,11 +16,9 @@ exports.up = function (knex, Promise) {
             .integer('dish_id')
             .unsigned()
             .references('id')
-            .inTable('recipe')
+            .inTable('dish')
             .onDelete('RESTRICT')
             .onUpdate('CASCADE')
-
-
     })
 };
 
